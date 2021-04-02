@@ -1,0 +1,6 @@
+Implement simulation of
+first fit, next fit, best fit and worst fit algorithms for variable partition allocation strategies. Simulator should read requisite data from a file called alloc.dat. The first line of this file is memory size (in KB). All subsequent lines shall consist of a 3-tuple
+time at which request comes, size of block requested (in KB), time duration for which allocation shall remain valid.
+These lines are in ascending order of time of request.
+The last line consists of -1, -1, -1
+Output of simulator should be percentage of successful allocation requests and external fragmentation at intervals of 50 units of time for each of first/next/best/worst fit strategies.
