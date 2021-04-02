@@ -1,0 +1,2 @@
+Consider a sharable resource with the following characteristics. As long as there are fewer than N processes using the resource, new process can start using it right away. Once there are N processes using the resource, all N must leave before any new process can start using it. Processes do not block themselves while in exclusion, new processes are prevented from using the resource if there are (or were) N active users and the last process to depart unlocks upto N waiting processes.
+N is user input.
